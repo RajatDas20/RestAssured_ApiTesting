@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14313" started-at="2022-03-21T09:32:05Z" finished-at="2022-03-21T09:32:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14313" started-at="2022-03-21T09:32:05Z" finished-at="2022-03-21T09:32:19Z">
+      <class name="IBM_Haldia.Rest_Assured.localhostApi">
+        <test-method status="PASS" signature="creatingUser(org.testng.ITestContext)[pri:0, instance:IBM_Haldia.Rest_Assured.localhostApi@35bbe5e8]" name="creatingUser" duration-ms="6138" started-at="2022-03-21T15:02:05Z" finished-at="2022-03-21T15:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@327471b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingUser -->
+        <test-method status="PASS" signature="modifyingUser(org.testng.ITestContext)[pri:0, instance:IBM_Haldia.Rest_Assured.localhostApi@35bbe5e8]" name="modifyingUser" duration-ms="4090" started-at="2022-03-21T15:02:11Z" depends-on-methods="IBM_Haldia.Rest_Assured.localhostApi.creatingUser" finished-at="2022-03-21T15:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@327471b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyingUser -->
+        <test-method status="PASS" signature="getafteredit(org.testng.ITestContext)[pri:0, instance:IBM_Haldia.Rest_Assured.localhostApi@35bbe5e8]" name="getafteredit" duration-ms="4067" started-at="2022-03-21T15:02:15Z" depends-on-methods="IBM_Haldia.Rest_Assured.localhostApi.modifyingUser" finished-at="2022-03-21T15:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@327471b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getafteredit -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:IBM_Haldia.Rest_Assured.localhostApi@35bbe5e8]" name="delete" duration-ms="1" started-at="2022-03-21T15:02:19Z" depends-on-methods="IBM_Haldia.Rest_Assured.localhostApi.getafteredit" finished-at="2022-03-21T15:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@327471b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- IBM_Haldia.Rest_Assured.localhostApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
